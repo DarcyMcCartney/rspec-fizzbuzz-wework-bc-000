@@ -12,6 +12,7 @@ else puts "nil"
   end
 end
 
+puts "What number would you like to try?"
 number = gets.strip.to_i
 
-runs fizzbuzz(number)
+fizzbuzz(number)
