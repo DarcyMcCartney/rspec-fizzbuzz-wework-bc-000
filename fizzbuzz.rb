@@ -2,12 +2,13 @@
 
 
 def fizzbuzz(number)
-if #{number} % 3 == 0
-  puts "Fizz"
-elsif #{number} % 5 == 0
-  puts "Buzz"
-elsif #{number} % 3 == 0 && #{number} & 5 == 0
+if #{number} % 3 == 0 && #{number} & 5 == 0
   puts "FizzBuzz"
+  #{number} % 3 == 0
+  puts "Fizz"
+else #{number} % 5 == 0
+  puts "Buzz"
+elsif 
 else puts "nil"
   end
 end
