@@ -12,6 +12,7 @@ else puts "nil"
   end
 end
 
+number
 fizzbuzz(9)
 
 fizzbuzz(10)
