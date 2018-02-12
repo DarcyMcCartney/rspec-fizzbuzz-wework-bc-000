@@ -4,12 +4,11 @@
 def fizzbuzz(number)
 if #{number} % 3 == 0 && #{number} & 5 == 0
   puts "FizzBuzz"
-  #{number} % 3 == 0
+else #{number} % 3 == 0
   puts "Fizz"
 else #{number} % 5 == 0
   puts "Buzz"
-elsif 
-else puts "nil"
+elsif puts "nil"
   end
 end
   
