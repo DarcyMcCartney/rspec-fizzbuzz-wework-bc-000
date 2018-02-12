@@ -2,7 +2,6 @@
 
 
 fizzbuzz = "number"
-end
 
 if #{number} % 3 == 0
   puts "Fizz"
@@ -15,5 +14,3 @@ end
   
 "number" = 15
 puts number
-
-
