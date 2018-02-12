@@ -12,7 +12,11 @@ else puts "nil"
   end
 end
 
-puts "What number would you like to try?"
-number = gets.strip.to_i
+fizzbuzz(3)
 
-fizzbuzz(number)
+fizzbuzz(10)
+
+fizzbuzz(15)
+
+fizzbuzz(4)
+
