@@ -12,5 +12,5 @@ elsif #{number} % 3 == 0 && #{number} & 5 == 0
 else puts "nil"
 end
   
-"number" = 15
+number = 15
 puts number
