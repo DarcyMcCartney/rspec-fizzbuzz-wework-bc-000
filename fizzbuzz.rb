@@ -2,11 +2,11 @@
 
 
 def fizzbuzz(number)
-if #{number} % 3 == 0 && #{number} & 5 == 0
+if number % 3 == 0 && number % 5 == 0
   puts "FizzBuzz"
-else #{number} % 3 == 0
+else number % 3 == 0
   puts "Fizz"
-else #{number} % 5 == 0
+else number % 5 == 0
   puts "Buzz"
 elsif puts "nil"
   end
