@@ -14,4 +14,4 @@ end
 
 number = gets.strip.to_i
 
-fizzbuzz(number)
+runs fizzbuzz(number)
