@@ -2,7 +2,7 @@
 
 
 def fizzbuzz(number)
-if number % 3 == 0 || number % 5 == 0
+if number % 3 == 0 && number % 5 == 0
   puts "FizzBuzz"
 elsif number % 3 == 0
   puts "Fizz"
@@ -12,12 +12,7 @@ else puts "nil"
   end
 end
 
-number
-fizzbuzz(9)
+number = gets.strip.to_i
 
-fizzbuzz(10)
-
-fizzbuzz(15)
-
-fizzbuzz(4)
+fizzbuzz(number)
 
