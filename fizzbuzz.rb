@@ -5,17 +5,16 @@ if int % 3 == 0 && int % 5 == 0
   puts "FizzBuzz"
 elsif int % 3 == 0 && int % 4 == false
   puts "Fizz"
-elsif int % 5 == 0 && int % 3 = false
+elsif int % 5 == 0 && int % 3 == false
   puts "Buzz"
 else puts "nil"
-  end
 end
 
-fizzbuzz(3)
+puts int(3)
 
-fizzbuzz(10)
+puts int(10)
 
-fizzbuzz(15)
+puts int(15)
 
-fizzbuzz(4)
+puts int(4)
 
