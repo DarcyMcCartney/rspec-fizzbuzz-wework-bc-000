@@ -2,7 +2,7 @@
 
 
 def fizzbuzz(number)
-if number % 3 == 0 && number % 5 == 0
+if number % 3 == 0 || number % 5 == 0
   puts "FizzBuzz"
 elsif number % 3 == 0
   puts "Fizz"
@@ -11,5 +11,12 @@ elsif number % 5 == 0
 else puts "nil"
   end
 end
-  
+
+fizzbuzz(9)
+
+fizzbuzz(10)
+
 fizzbuzz(15)
+
+fizzbuzz(4)
+
