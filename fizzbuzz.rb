@@ -13,11 +13,11 @@ elsif int % 5 == 0 && int % 3 == false
 else puts "nil"
 end
 
-puts int(3)
+puts fizzbuzz(3)
 
-puts int(10)
+puts fizzbuzz(10)
 
-puts int(15)
+puts fizzbuzz(15)
 
-puts int(4)
+puts fizzbuzz(4)
 
