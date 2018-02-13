@@ -11,11 +11,11 @@ else puts "nil"
 end
 end
 
-puts fizzbuzz(15)
+fizzbuzz(15)
 
-puts fizzbuzz(3)
+fizzbuzz(3)
 
-puts fizzbuzz(10)
+fizzbuzz(10)
 
-puts fizzbuzz(4)
+fizzbuzz(4)
 
