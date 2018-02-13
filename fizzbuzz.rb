@@ -3,15 +3,15 @@
 def fizzbuzz(int)
 if int % 3 == 0 && int % 5 == 0
   puts "FizzBuzz"
-elsif int % 3 == 0 && int % 4 == false
+elsif int % 3 == 0
   puts "Fizz"
-elsif int % 5 == 0 && int % 3 == false
+elsif int % 5 == 0
   puts "Buzz"
 else puts "nil"
 end
 end
 
-puts fizzbuzz(3)
+puts fizzbuzz(9)
 
 puts fizzbuzz(10)
 
